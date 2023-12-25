@@ -23,6 +23,19 @@ let users = [
 let messages = [
   {
     id: crypto.randomUUID(),
+    content: "Gandalf.mp4",
+    created: Date.now(),
+    user: 'admin',
+    type: 'video',
+    path: 'files/Gandalf.mp4',
+    selected : false,
+    coordinates: {
+      latitude: 59.91007995605469,
+      longitude: 30.50927925109863
+    },
+  },
+  {
+    id: crypto.randomUUID(),
     content: "Сообщение 1",
     created: Date.now(),
     user: 'admin',
@@ -185,19 +198,6 @@ let messages = [
     user: 'admin',
     type: 'file',
     path: 'files/CyberpunkRED_JumpstartKit_rules.pdf',
-    selected : false,
-    coordinates: {
-      latitude: 59.91007995605469,
-      longitude: 30.50927925109863
-    },
-  },
-  {
-    id: crypto.randomUUID(),
-    content: "Gandalf.mp4",
-    created: Date.now(),
-    user: 'admin',
-    type: 'video',
-    path: 'files/Gandalf.mp4',
     selected : false,
     coordinates: {
       latitude: 59.91007995605469,
